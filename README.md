@@ -6,17 +6,17 @@
 This project is a web-based application designed to detect phishing websites in real-time using Machine Learning. By analyzing the linguistic and structural features of a URL, the system classifies it as **Legitimate** or **Phishing**. [cite_start]The backend is powered by **Django** and a **Logistic Regression** model trained on a dataset of over 11,000 URLs[cite: 4, 26].
 
 ## Features
-* [cite_start]**Real-time URL Analysis**: Instantly predicts if a URL is safe or malicious[cite: 9].
-* [cite_start]**ML-Based Engine**: Uses TF-IDF Vectorization and Logistic Regression for high accuracy[cite: 26].
-* [cite_start]**Visual Verdicts**: Displays clear **Green (Safe)** or **Red (Phishing)** indicators[cite: 21].
-* [cite_start]**Search History**: Automatically logs all scanned URLs and their results to the database[cite: 34].
-* [cite_start]**Responsive Interface**: Built with Bootstrap for use on desktop and mobile[cite: 22].
+**Real-time URL Analysis**: Instantly predicts if a URL is safe or malicious[cite: 9].
+**ML-Based Engine**: Uses TF-IDF Vectorization and Logistic Regression for high accuracy[cite: 26].
+**Visual Verdicts**: Displays clear **Green (Safe)** or **Red (Phishing)** indicators[cite: 21].
+**Search History**: Automatically logs all scanned URLs and their results to the database[cite: 34].
+**Responsive Interface**: Built with Bootstrap for use on desktop and mobile[cite: 22].
 
 ## Tech Stack
-* [cite_start]**Backend**: Python, Django
+**Backend**: Python, Django
 * **Machine Learning**: Scikit-Learn, Pandas, Numpy, Joblib
-* [cite_start]**Frontend**: HTML, CSS, Bootstrap
-* [cite_start]**Database**: SQLite (Default) 
+**Frontend**: HTML, CSS, Bootstrap
+**Database**: SQLite (Default) 
 * **Dataset**: 11,430 Labeled URLs (Legitimate vs Phishing)
 
 
@@ -45,7 +45,7 @@ python train_model.py
 Output: "Model saved as 'phishing_model.pkl'"
 
 5. Setup Database
-Run migrations to create the SearchHistory table.
+Run migrations to create the Search History table.
 
 Bash
 
